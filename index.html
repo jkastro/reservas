@@ -8,9 +8,9 @@
 <body>
     <form action="" class="formulario">
        
-        <h1 class="formulario__titulo">Salon de Belleza Gaval</h1>
+        <h1 class="formulario__titulo">Barbería Líder</h1>
         <h3 class="formulario__subtitulo">Reservas</h3>
-        <p class="formulario__parrafo">Llena este pequeño formulario para agendar tu cita en el salon.</p>
+        <p class="formulario__parrafo">Llena este pequeño formulario para agendar tu cita en la barbería.</p>
         
          <label for="nombre" class="formulario__label">¿Cual es tu nombre?</label>
          <input id="cliente" type="text" class="formulario__input" required>
@@ -23,14 +23,14 @@
          <label for="hora" class="formulario__label">Indica la hora de tu reserva</label>
          <input id="hora" type="time" class="formulario__input" min="07:00" max="21:00" step="3600" required>
          
-         <label for="barbero" class="formulario__label">Estelista de preferencia</label>
+         <label for="barbero" class="formulario__label">Barbero de preferencia</label>
          <select id="barbero" name="listabarberos" class="formulario__input">
-             <option value="Barbero Cristóbal">Yely</option>
-             <option value="Barbero Elis">yuly</option>
+             <option value="Barbero Cristóbal">Barbero Cristóbal</option>
+             <option value="Barbero Elis">Barbero Elis</option>
          </select>
          
          <label for="servicios" class="formulario__label">¿Cuál es el servicio que se desea realizar?</label>
-        <select id="servicio" name="listaservicios" class="formulario__input">
+         <select id="servicio" name="listaservicios" class="formulario__input">
              <option>Corte de Cabello - $12.000</option>
              <option>Afeitado de la Barba - $12.000</option>
              <option>Peinado para caballero - $12.000</option>
@@ -47,5 +47,3 @@
         
      </form>
      <script src="js/form.js"></script>
-</body>
-</html>
